@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  padding: 30px 15px 10px;
+}
+.brand {
+  font-size: 1.8rem;
+  color: #ff5722;
+}
+.brand .accent {
+  color: #ff6a00;
+}
+main {
+  padding: 20px 15px;
+}
+.search-section {
+  margin-bottom: 40px;
+}
+.search-section p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+input {
+  padding: 12px;
+  width: 90%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+button {
+  padding: 12px 20px;
+  background: linear-gradient(180deg,#ff5722,#e64a19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+button:hover {
+  background: linear-gradient(180deg,#e64a19,#d84315);
+}
+.sobre, .afiliado {
+  padding: 20px;
+  margin: 0 auto 30px;
+  max-width: 600px;
+  text-align: left;
+}
+h2 {
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+@media (max-width: 400px) {
+  input, button {
+    width: 80%;
+  }
+}
