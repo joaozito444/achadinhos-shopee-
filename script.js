@@ -6,6 +6,8 @@ function buscarProduto() {
     "102": "https://s.shopee.com.br/10uXprc0Ga",
     "103": "https://s.shopee.com.br/7AVBBCs7nR",
     "104": "https://s.shopee.com.br/6psKsKLa6b",
+    "001": "https://s.shopee.com.br/AA8mtariZY",
+    
   };
   if (produtos[codigo]) {
     window.location.href = produtos[codigo];
