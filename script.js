@@ -4,7 +4,8 @@ function buscarProduto() {
   const produtos = {
     "101": "https://s.shopee.com.br/7AVBBBarRo",
     "102": "https://s.shopee.com.br/10uXprc0Ga",
-    "103": "https://s.shopee.com.br/7AVBBCs7nR"
+    "103": "https://s.shopee.com.br/7AVBBCs7nR",
+    "104": "https://s.shopee.com.br/6psKsKLa6b",
   };
   if (produtos[codigo]) {
     window.location.href = produtos[codigo];
